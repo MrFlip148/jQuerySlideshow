@@ -1,0 +1,25 @@
+/**
+ * CSS for tmozSlideshow JQuery plugin
+ */
+ 
+
+#slideshow {
+	position: relative;
+	background-color : black;
+	padding: 5px;
+/* Set these to the same dimensions as the images you are using. NOTE: THIS DOES NOT AFFECT THE IMAGES */
+	height: 348px; 
+	width: 450px;
+}
+
+.slideshow_img {
+	position: absolute;
+/* Force the images to have the #slideshow dimensions. NOTE: Can make the images look weird */
+	height: 348px; 
+	width: 450px;
+}
+
+
+
+
+
